@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/v1/test")
-public class TestController {
+public class TestControllerV1 {
   @GetMapping
   public ResponseEntity<Response> getApiInfo() {
     Response response = Response.builder()
@@ -32,7 +32,7 @@ public class TestController {
         .build();
 
     return ResponseEntity
-        .ok()
+        .created(null)
         .body(response);
   }
 }
