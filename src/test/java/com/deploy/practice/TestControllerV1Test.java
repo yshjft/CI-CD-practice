@@ -30,14 +30,6 @@ class TestControllerV1Test {
   }
 
   @Test
-  @DisplayName("v1 GET API 실패 테스트")
-  public void testGetApiInfoFail() throws Exception {
-    mockMvc.perform(get("/api/v1/test")
-            .contentType(MediaType.APPLICATION_JSON))
-        .andExpect(status().isCreated());
-  }
-
-  @Test
   @DisplayName("v1 POST API 테스트")
   public void testPostApiInfo() throws Exception {
     Request request = Request.builder()
