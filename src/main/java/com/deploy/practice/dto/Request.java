@@ -1,4 +1,4 @@
-package com.deploy.practice;
+package com.deploy.practice.dto;
 
 import javax.validation.constraints.NotBlank;
 import lombok.Builder;

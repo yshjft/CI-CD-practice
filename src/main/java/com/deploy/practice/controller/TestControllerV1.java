@@ -1,5 +1,8 @@
-package com.deploy.practice;
+package com.deploy.practice.controller;
 
+import com.deploy.practice.dto.Request;
+import com.deploy.practice.dto.Response;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -9,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/v1/test")
+@RequiredArgsConstructor
 public class TestControllerV1 {
   @GetMapping
   public ResponseEntity<Response> getApiInfo() {

@@ -1,4 +1,4 @@
-package com.deploy.practice;
+package com.deploy.practice.controller;
 
 import java.util.Arrays;
 import lombok.RequiredArgsConstructor;

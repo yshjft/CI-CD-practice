@@ -4,6 +4,9 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+application-a.yml
+application-b.yml
+
 ### STS ###
 .apt_generated
 .classpath
