@@ -15,7 +15,7 @@ public class TestControllerV1 {
     Response response = Response.builder()
         .version("V1")
         .message("V1 GET test")
-        .detail("version 1.0 api 입니다. GET 메서드를 사용하는 API를 테스트합니다.")
+        .detail("version 1.0 api 입니다. GET 메서드를 사용하는 API를 테스트합니다. 변경 좀 합시다.")
         .build();
 
     return ResponseEntity
