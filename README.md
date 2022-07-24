@@ -3,4 +3,4 @@
 
 ### Jacoco 또한 적용하였습니다.
 
-### Github Actions를 이용하여 CI 적용하였습니다.
+### Github Actions를 이용하여 CI를 적용하였습니다.
